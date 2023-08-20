@@ -7,16 +7,12 @@
     <path id="blade2" d="M9,0 m3,-3 h-5 a4,4 0 0 1 -4,-4 v-10 h5 a4,4 0 0 1 4,4 z" stroke="white"
       stroke-width="0.5" />
 
-    <g id="blade">
-      <use xlink:href="#blade2" />
-    </g>
-
     <clipPath id="bladeclip">
       <use xlink:href="#blade2" transform="rotate(30)" />
     </clipPath>
 
     <g id="clippedblade" clip-path="url(#bladeclip)">
-      <use xlink:href=" #blade" />
+      <use xlink:href="#blade2" />
     </g>
 
     <g id="crosshairs">
@@ -25,30 +21,25 @@
     </g>
   </defs>
 
+
   <g transform="translate(25,25)">
     <use xlink:href="#crosshairs" />
-    <use xlink:href="#blade2"/>
+    <use xlink:href="#blade2" class="color1"/>
   </g>
 
   <g transform="translate(75,25)">
     <use xlink:href="#crosshairs" />
-    <use xlink:href="#blade" fill="#000" transform="rotate(  0)" />
-    <use xlink:href="#blade" fill="#ccc" transform="rotate( 30)" />
+    <use xlink:href="#blade2" fill="#000" transform="rotate(  0)" />
+    <use xlink:href="#blade2" fill="#ccc" transform="rotate( 30)" />
   </g>
 
   <g transform="translate(25, 75)">
     <use xlink:href="#crosshairs" />
-
-    <!-- https://iamkate.com/data/12-bit-rainbow/ -->
-    <!-- http://3.bp.blogspot.com/-bDiKRlqmHt0/VlZELWCRFvI/AAAAAAAABN0/1MVi69bPQvk/s1600/Color-Wheel-Template-RGB.png -->
-    <use xlink:href="#clippedblade" fill="#817" transform="rotate(  0)" />
+    <use xlink:href="#clippedblade" fill="#000" transform="rotate(  0)" />
   </g>
 
   <g transform="translate(75, 75)">
     <use xlink:href="#crosshairs" />
-
-    <!-- https://iamkate.com/data/12-bit-rainbow/ -->
-    <!-- http://3.bp.blogspot.com/-bDiKRlqmHt0/VlZELWCRFvI/AAAAAAAABN0/1MVi69bPQvk/s1600/Color-Wheel-Template-RGB.png -->
     <use xlink:href="#clippedblade" fill="#817" transform="rotate(  0)" />
     <use xlink:href="#clippedblade" fill="#a35" transform="rotate( 30)" />
     <use xlink:href="#clippedblade" fill="#c66" transform="rotate( 60)" />
