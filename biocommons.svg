@@ -1,0 +1,41 @@
+<svg width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path id="blade1" d="M0,0 h-5 a4,4 0 0 1 -4,-4 v-10 h5 a4,4 0 0 1 4,4 z" stroke="white"
+      stroke-width="0.5" />
+    <path id="blade2" d="M9,0 h-5 a4,4 0 0 1 -4,-4 v-10 h5 a4,4 0 0 1 4,4 z" stroke="white"
+      stroke-width="0.5"  />
+
+    <g id="blade">
+      <use href="#blade2" transform="scale(-1,1) translate(1,-1)"/>
+    </g>
+
+    <g id="clippedblade">
+      <use href="#blade"/>
+      <use href="#blade" fill="#fff" transform="rotate(30)" />
+    </g>
+
+  </defs>
+
+  <g transform="translate(15,15)">
+    <line x1="-10" x2="10" y1="0" y2="0" stroke="#ccc" stroke-width="0.05" />
+    <line x1="0" x2="0" y1="-10" y2="10" stroke="#ccc" stroke-width="0.05" />
+    <use href="#clippedblade" />
+  </g>
+
+  <!-- Create the pinwheel blades -->
+  <g transform="translate(40, 40)">
+    <!-- https://iamkate.com/data/12-bit-rainbow/ -->
+    <use href="#clippedblade" fill="#817" transform="rotate(  0)" />
+    <use href="#clippedblade" fill="#a35" transform="rotate( 30)" />
+    <use href="#clippedblade" fill="#c66" transform="rotate( 60)" />
+    <use href="#clippedblade" fill="#e94" transform="rotate( 90)" />
+    <use href="#clippedblade" fill="#ed0" transform="rotate(120)" />
+    <use href="#clippedblade" fill="#9d5" transform="rotate(150)" />
+    <use href="#clippedblade" fill="#4d8" transform="rotate(180)" />
+    <use href="#clippedblade" fill="#2cb" transform="rotate(210)" />
+    <use href="#clippedblade" fill="#0bc" transform="rotate(240)" />
+    <use href="#clippedblade" fill="#09c" transform="rotate(270)" />
+    <use href="#clippedblade" fill="#36b" transform="rotate(300)" />
+    <use href="#clippedblade" fill="#639" transform="rotate(330)" />
+  </g>
+</svg>
