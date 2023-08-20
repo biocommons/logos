@@ -1,0 +1,6 @@
+@import "colors.css"
+
+@media all {
+    .color1 {
+        fill: #ccc;
+    }
