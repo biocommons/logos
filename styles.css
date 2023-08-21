@@ -1,35 +1,60 @@
-:root {
+:root10a {
     /* https://colorswall.com/palette/79156 */
     --color1:  #ff0000;
     --color2:  #fc4444;
     --color3:  #fc5404;
     --color4:  #fcd444;
     --color5:  #8cc43c;
-    --color6:  #ccc;
-    --color7:  #029658;
-    --color8:  #1abc9c;
-    --color9:  #5bc0de;
-    --color10: #6454ac;
-    --color11: #fc8c84;
-    --color12: #ccc;
+    --color6:  #029658;
+    --color7:  #1abc9c;
+    --color8:  #5bc0de;
+    --color9:  #6454ac;
+    --color10: #fc8c84;
 }
 
-:root0 {
-    --color1: #;
-    --color2: #;
-    --color3: #;
-    --color4: #;
-    --color5: #;
-    --color6: #;
-    --color7: #;
-    --color8: #;
-    --color9: #;
-    --color10: #;
-    --color11: #;
-    --color12: #;
+:root10a {
+    /* https://docs.google.com/spreadsheets/d/1487vHBJbqFcbbmbf_WeTIebJIfiT34lu2c9txG7udU0/edit#gid=0 */
+    --color1: #cc4125;
+    --color2: #e06666;
+    --color3: #e06666;
+    --color4: #ffd966;
+    --color5: #93c47d;
+    --color6: #76a5af;
+    --color7: #6d9eeb;
+    --color8: #6fa8dc;
+    --color9: #8e7cc3;
+    --color10: #c27ba0;
 }
 
-:root1 {
+:root {
+    /* https://docs.google.com/spreadsheets/d/1487vHBJbqFcbbmbf_WeTIebJIfiT34lu2c9txG7udU0/edit#gid=0 */
+    --color1:  #a61c00;
+    --color2:  #cc0000;
+    --color3:  #e69138;
+    --color4:  #f1c232;
+    --color5:  #6aa84f;
+    --color6:  #45818e;
+    --color7:  #3c78d8;
+    --color8:  #3d85c6;
+    --color9:  #674ea7;
+    --color10: #a64d79;
+}
+
+:root10c {
+    /* https://docs.google.com/spreadsheets/d/1487vHBJbqFcbbmbf_WeTIebJIfiT34lu2c9txG7udU0/edit#gid=0 */
+    --color1:  #85200c;
+    --color2:  #990000;
+    --color3:  #b45f06;
+    --color4:  #bf9000;
+    --color5:  #38761d;
+    --color6:  #134f5c;
+    --color7:  #1155cc;
+    --color8:  #0b5394;
+    --color9:  #351c75;
+    --color10: #741b47;
+}
+
+:root12a {
     /* http://3.bp.blogspot.com/-bDiKRlqmHt0/VlZELWCRFvI/AAAAAAAABN0/1MVi69bPQvk/s1600/Color-Wheel-Template-RGB.png */
     --color1: #ff0000;
     --color2: #ff7f00;
