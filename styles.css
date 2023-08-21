@@ -26,7 +26,7 @@
     --color10: #c27ba0;
 }
 
-:root {
+:rootb {
     /* https://docs.google.com/spreadsheets/d/1487vHBJbqFcbbmbf_WeTIebJIfiT34lu2c9txG7udU0/edit#gid=0 */
     --color1:  #a61c00;
     --color2:  #cc0000;
@@ -40,7 +40,7 @@
     --color10: #a64d79;
 }
 
-:root10c {
+:root {
     /* https://docs.google.com/spreadsheets/d/1487vHBJbqFcbbmbf_WeTIebJIfiT34lu2c9txG7udU0/edit#gid=0 */
     --color1:  #85200c;
     --color2:  #990000;
@@ -52,6 +52,20 @@
     --color8:  #0b5394;
     --color9:  #351c75;
     --color10: #741b47;
+}
+
+:root10b {
+    /* https://docs.google.com/spreadsheets/d/1487vHBJbqFcbbmbf_WeTIebJIfiT34lu2c9txG7udU0/edit#gid=0 */
+    --color1:  #a61c00;
+    --color2:  #cc0000;
+    --color3:  #e69138;
+    --color4:  #f1c232;
+    --color5:  #6aa84f;
+    --color6:  #45818e;
+    --color7:  #3c78d8;
+    --color8:  #3d85c6;
+    --color9:  #674ea7;
+    --color10: #a64d79;
 }
 
 :root12a {
