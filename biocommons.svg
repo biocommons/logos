@@ -43,17 +43,17 @@
 
   <g transform="translate(750, 750)">
     <use xlink:href="#crosshairs" />
-    <use xlink:href="#bladepartial" fill="#817" transform="rotate(  0)" />
-    <use xlink:href="#bladepartial" fill="#a35" transform="rotate( 30)" />
-    <use xlink:href="#bladepartial" fill="#c66" transform="rotate( 60)" />
-    <use xlink:href="#bladepartial" fill="#e94" transform="rotate( 90)" />
-    <use xlink:href="#bladepartial" fill="#ed0" transform="rotate(120)" />
-    <use xlink:href="#bladepartial" fill="#9d5" transform="rotate(150)" />
-    <use xlink:href="#bladepartial" fill="#4d8" transform="rotate(180)" />
-    <use xlink:href="#bladepartial" fill="#2cb" transform="rotate(210)" />
-    <use xlink:href="#bladepartial" fill="#0bc" transform="rotate(240)" />
-    <use xlink:href="#bladepartial" fill="#09c" transform="rotate(270)" />
-    <use xlink:href="#bladepartial" fill="#36b" transform="rotate(300)" />
-    <use xlink:href="#bladepartial" fill="#639" transform="rotate(330)" />
+    <use xlink:href="#bladepartial" class="color1" transform="rotate(  0)" />
+    <use xlink:href="#bladepartial" class="color2" transform="rotate( 30)" />
+    <use xlink:href="#bladepartial" class="color3" transform="rotate( 60)" />
+    <use xlink:href="#bladepartial" class="color4" transform="rotate( 90)" />
+    <use xlink:href="#bladepartial" class="color5" transform="rotate(120)" />
+    <use xlink:href="#bladepartial" class="color6" transform="rotate(150)" />
+    <use xlink:href="#bladepartial" class="color7" transform="rotate(180)" />
+    <use xlink:href="#bladepartial" class="color8" transform="rotate(210)" />
+    <use xlink:href="#bladepartial" class="color9" transform="rotate(240)" />
+    <use xlink:href="#bladepartial" class="color10" transform="rotate(270)" />
+    <use xlink:href="#bladepartial" class="color11" transform="rotate(300)" />
+    <use xlink:href="#bladepartial" class="color12" transform="rotate(330)" />
   </g>
 </svg>

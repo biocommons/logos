@@ -1,7 +1,112 @@
-@import "colors.css"
+:root {
+    /* https://colorswall.com/palette/79156 */
+    --color1:  #ff0000;
+    --color2:  #fc4444;
+    --color3:  #fc5404;
+    --color4:  #fcd444;
+    --color5:  #8cc43c;
+    --color6:  #ccc;
+    --color7:  #029658;
+    --color8:  #1abc9c;
+    --color9:  #5bc0de;
+    --color10: #6454ac;
+    --color11: #fc8c84;
+    --color12: #ccc;
+}
 
-@media all {
-    .color1 {
-        fill: #ccc;
-    }
+:root0 {
+    --color1: #;
+    --color2: #;
+    --color3: #;
+    --color4: #;
+    --color5: #;
+    --color6: #;
+    --color7: #;
+    --color8: #;
+    --color9: #;
+    --color10: #;
+    --color11: #;
+    --color12: #;
+}
+
+:root1 {
+    /* http://3.bp.blogspot.com/-bDiKRlqmHt0/VlZELWCRFvI/AAAAAAAABN0/1MVi69bPQvk/s1600/Color-Wheel-Template-RGB.png */
+    --color1: #ff0000;
+    --color2: #ff7f00;
+    --color3: #ffff00;
+    --color4: #7fff00;
+    --color5: #00ff00;
+    --color6: #00ff7f;
+    --color7: #00ffff;
+    --color8: #007fff;
+    --color9: #0000ff;
+    --color10: #7f00ff;
+    --color11: #ff00ff;
+    --color12: #ff007f;
+}
+
+:root2 {
+    /* https://iamkate.com/data/12-bit-rainbow/ */
+    --color1: #817;
+    --color2: #a35;
+    --color3: #c66;
+    --color4: #e94;
+    --color5: #ed0;
+    --color6: #9d5;
+    --color7: #4d8;
+    --color8: #2cb;
+    --color9: #0bc;
+    --color10: #09c;
+    --color11: #36b;
+    --color12: #639;
+}
+
+
+
+.color1 {
+    fill: var(--color1);
+}
+
+.color2 {
+    fill: var(--color2);
+}
+
+.color3 {
+    fill: var(--color3);
+}
+
+.color4 {
+    fill: var(--color4);
+}
+
+.color5 {
+    fill: var(--color5);
+}
+
+.color6 {
+    fill: var(--color6);
+}
+
+.color7 {
+    fill: var(--color7);
+}
+
+.color8 {
+    fill: var(--color8);
+}
+
+.color9 {
+    fill: var(--color9);
+}
+
+.color10 {
+    fill: var(--color10);
+}
+
+.color11 {
+    fill: var(--color11);
+}
+
+.color12 {
+    fill: var(--color12);
 }
