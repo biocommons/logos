@@ -4,67 +4,30 @@
    height="345.00003"
    version="1.1"
    id="svg68"
-   sodipodi:docname="biocommons2.svg"
+   sodipodi:docname="biocommons.svg"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview70"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     showgrid="false"
-     inkscape:zoom="1.027"
-     inkscape:cx="63.777994"
-     inkscape:cy="-76.436222"
-     inkscape:window-width="1737"
-     inkscape:window-height="1299"
-     inkscape:window-x="26"
-     inkscape:window-y="23"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg68" />
-  <!-- <link xmlns="http://www.w3.org/1999/xhtml" rel="stylesheet" href="styles.css" type="text/css" /> -->
-  <style
-     type="text/css"
-     id="style2"><![CDATA[
-    :root {
-      /* https://docs.google.com/spreadsheets/d/1487vHBJbqFcbbmbf_WeTIebJIfiT34lu2c9txG7udU0/edit#gid=0 */
-      --color1:  #85200c;
-      --color2:  #990000;
-      --color3:  #b45f06;
-      --color4:  #bf9000;
-      --color5:  #38761d;
-      --color6:  #134f5c;
-      --color7:  #1155cc;
-      --color8:  #0b5394;
-      --color9:  #351c75;
-      --color10: #741b47;
-    }
-    .color1 {fill: var(--color1);}
-    .color2 {fill: var(--color2);}
-    .color3 {fill: var(--color3);}
-    .color4 {fill: var(--color4);}
-    .color5 {fill: var(--color5);}
-    .color6 {fill: var(--color6);}
-    .color7 {fill: var(--color7);}
-    .color8 {fill: var(--color8);}
-    .color9 {fill: var(--color9);}
-    .color10 {fill: var(--color10);}
-    .color11 {fill: var(--color11);}
-    .color12 {fill: var(--color12);}
-    ]]></style>
+  <style>
+    .color1  {fill: #85200c;}
+    .color2  {fill: #990000;}
+    .color3  {fill: #b45f06;}
+    .color4  {fill: #bf9000;}
+    .color5  {fill: #38761d;}
+    .color6  {fill: #134f5c;}
+    .color7  {fill: #1155cc;}
+    .color8  {fill: #0b5394;}
+    .color9  {fill: #351c75;}
+    .color10 {fill: #741b47;}
+    </style>
   <defs
      id="defs22">
     <path
        id="blade2"
-       d="M 50,0 M 80,-30 H 30 a 40,40 0 0 1 -40,-40 v -100 h 50 a 40,40 0 0 1 40,40 z"
+       d="M 50,0 m 50,-50 H 30 a 40,40 0 0 1 -40,-40 v -100 h 50 a 40,40 0 0 1 40,40 z"
        stroke="#ffffff"
        stroke-width="5" />
     <mask

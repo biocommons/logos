@@ -1,0 +1,175 @@
+.color1  {fill: ;}
+.color2  {fill: ;}
+.color3  {fill: ;}
+.color4  {fill: ;}
+.color5  {fill: ;}
+.color6  {fill: ;}
+.color7  {fill: ;}
+.color8  {fill: ;}
+
+
+.color1  {fill: #85200c;}
+.color2  {fill: #990000;}
+.color3  {fill: #b45f06;}
+.color4  {fill: #bf9000;}
+.color5  {fill: #38761d;}
+.color6  {fill: #134f5c;}
+.color7  {fill: #1155cc;}
+.color8  {fill: #0b5394;}
+.color9  {fill: #351c75;}
+.color10 {fill: #741b47;}
+
+
+:rootb {
+    /* https://docs.google.com/spreadsheets/d/1487vHBJbqFcbbmbf_WeTIebJIfiT34lu2c9txG7udU0/edit#gid=0 */
+    .color1 {fill: #a61c00;}
+    .color2 {fill: #cc0000;}
+    .color3 {fill: #e69138;}
+    .color4 {fill: #f1c232;}
+    .color5 {fill: #6aa84f;}
+    .color6 {fill: #45818e;}
+    .color7 {fill: #3c78d8;}
+    .color8 {fill: #3d85c6;}
+    .color9 {fill: #674ea7;}
+    .color10 {fill: #a64d79;}
+}
+
+
+:root10a {
+    /* https://colorswall.com/palette/79156 */
+    .color1 {fill: #ff0000;}
+    .color2 {fill: #fc4444;}
+    .color3 {fill: #fc5404;}
+    .color4 {fill: #fcd444;}
+    .color5 {fill: #8cc43c;}
+    .color6 {fill: #029658;}
+    .color7 {fill: #1abc9c;}
+    .color8 {fill: #5bc0de;}
+    .color9 {fill: #6454ac;}
+    .color10 {fill: #fc8c84;}
+}
+
+:root10a {
+    /* https://docs.google.com/spreadsheets/d/1487vHBJbqFcbbmbf_WeTIebJIfiT34lu2c9txG7udU0/edit#gid=0 */
+    .color1 {fill: #cc4125;}
+    .color2 {fill: #e06666;}
+    .color3 {fill: #e06666;}
+    .color4 {fill: #ffd966;}
+    .color5 {fill: #93c47d;}
+    .color6 {fill: #76a5af;}
+    .color7 {fill: #6d9eeb;}
+    .color8 {fill: #6fa8dc;}
+    .color9 {fill: #8e7cc3;}
+    .color10 {fill: #c27ba0;}
+}
+
+
+:root {
+    /* https://docs.google.com/spreadsheets/d/1487vHBJbqFcbbmbf_WeTIebJIfiT34lu2c9txG7udU0/edit#gid=0 */
+    .color1 {fill: #85200c;}
+    .color2 {fill: #990000;}
+    .color3 {fill: #b45f06;}
+    .color4 {fill: #bf9000;}
+    .color5 {fill: #38761d;}
+    .color6 {fill: #134f5c;}
+    .color7 {fill: #1155cc;}
+    .color8 {fill: #0b5394;}
+    .color9 {fill: #351c75;}
+    .color10 {fill: #741b47;}
+}
+
+:root10b {
+    /* https://docs.google.com/spreadsheets/d/1487vHBJbqFcbbmbf_WeTIebJIfiT34lu2c9txG7udU0/edit#gid=0 */
+    .color1 {fill: #a61c00;}
+    .color2 {fill: #cc0000;}
+    .color3 {fill: #e69138;}
+    .color4 {fill: #f1c232;}
+    .color5 {fill: #6aa84f;}
+    .color6 {fill: #45818e;}
+    .color7 {fill: #3c78d8;}
+    .color8 {fill: #3d85c6;}
+    .color9 {fill: #674ea7;}
+    .color10 {fill: #a64d79;}
+}
+
+:root12a {
+    /* http://3.bp.blogspot.com/-bDiKRlqmHt0/VlZELWCRFvI/AAAAAAAABN0/1MVi69bPQvk/s1600/Color-Wheel-Template-RGB.png */
+    .color1 {fill: #ff0000;}
+    .color2 {fill: #ff7f00;}
+    .color3 {fill: #ffff00;}
+    .color4 {fill: #7fff00;}
+    .color5 {fill: #00ff00;}
+    .color6 {fill: #00ff7f;}
+    .color7 {fill: #00ffff;}
+    .color8 {fill: #007fff;}
+    .color9 {fill: #0000ff;}
+    .color10 {fill: #7f00ff;}
+    .color11 {fill: #ff00ff;}
+    .color12 {fill: #ff007f;}
+}
+
+:root2 {
+    /* https://iamkate.com/data/12-bit-rainbow/ */
+    .color1 {fill: #817;}
+    .color2 {fill: #a35;}
+    .color3 {fill: #c66;}
+    .color4 {fill: #e94;}
+    .color5 {fill: #ed0;}
+    .color6 {fill: #9d5;}
+    .color7 {fill: #4d8;}
+    .color8 {fill: #2cb;}
+    .color9 {fill: #0bc;}
+    .color10 {fill: #09c;}
+    .color11 {fill: #36b;}
+    .color12 {fill: #639;}
+}
+
+
+
+.color1 {
+    fill: var(--color1);
+}
+
+.color2 {
+    fill: var(--color2);
+}
+
+.color3 {
+    fill: var(--color3);
+}
+
+.color4 {
+    fill: var(--color4);
+}
+
+.color5 {
+    fill: var(--color5);
+}
+
+.color6 {
+    fill: var(--color6);
+}
+
+.color7 {
+    fill: var(--color7);
+}
+
+.color8 {
+    fill: var(--color8);
+}
+
+.color9 {
+    fill: var(--color9);
+}
+
+.color10 {
+    fill: var(--color10);
+}
+
+.color11 {
+    fill: var(--color11);
+}
+
+.color12 {
+    fill: var(--color12);
+}

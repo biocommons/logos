@@ -1,3 +1,40 @@
+.color1  {fill: ;}
+.color2  {fill: ;}
+.color3  {fill: ;}
+.color4  {fill: ;}
+.color5  {fill: ;}
+.color6  {fill: ;}
+.color7  {fill: ;}
+.color8  {fill: ;}
+
+
+.color1  {fill: #85200c;}
+.color2  {fill: #990000;}
+.color3  {fill: #b45f06;}
+.color4  {fill: #bf9000;}
+.color5  {fill: #38761d;}
+.color6  {fill: #134f5c;}
+.color7  {fill: #1155cc;}
+.color8  {fill: #0b5394;}
+.color9  {fill: #351c75;}
+.color10 {fill: #741b47;}
+
+
+:rootb {
+    /* https://docs.google.com/spreadsheets/d/1487vHBJbqFcbbmbf_WeTIebJIfiT34lu2c9txG7udU0/edit#gid=0 */
+    --color1:  #a61c00;
+    --color2:  #cc0000;
+    --color3:  #e69138;
+    --color4:  #f1c232;
+    --color5:  #6aa84f;
+    --color6:  #45818e;
+    --color7:  #3c78d8;
+    --color8:  #3d85c6;
+    --color9:  #674ea7;
+    --color10: #a64d79;
+}
+
+
 :root10a {
     /* https://colorswall.com/palette/79156 */
     --color1:  #ff0000;
@@ -26,19 +63,6 @@
     --color10: #c27ba0;
 }
 
-:rootb {
-    /* https://docs.google.com/spreadsheets/d/1487vHBJbqFcbbmbf_WeTIebJIfiT34lu2c9txG7udU0/edit#gid=0 */
-    --color1:  #a61c00;
-    --color2:  #cc0000;
-    --color3:  #e69138;
-    --color4:  #f1c232;
-    --color5:  #6aa84f;
-    --color6:  #45818e;
-    --color7:  #3c78d8;
-    --color8:  #3d85c6;
-    --color9:  #674ea7;
-    --color10: #a64d79;
-}
 
 :root {
     /* https://docs.google.com/spreadsheets/d/1487vHBJbqFcbbmbf_WeTIebJIfiT34lu2c9txG7udU0/edit#gid=0 */
