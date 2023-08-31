@@ -1,0 +1,66 @@
+<svg width="1000" height="1000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!--
+    {{opts}}
+  -->
+  <style>
+    .color0 {fill: {{opts.colors[0]}};}
+    .color1 {fill: {{opts.colors[1]}};}
+    .color2 {fill: {{opts.colors[2]}};}
+    .color3 {fill: {{opts.colors[3]}};}
+    .color4 {fill: {{opts.colors[4]}};}
+    .color5 {fill: {{opts.colors[5]}};}
+    .color6 {fill: {{opts.colors[6]}};}
+    .color7 {fill: {{opts.colors[7]}};}
+    .color8 {fill: {{opts.colors[8]}};}
+    .color9 {fill: {{opts.colors[9]}};}
+  </style> 
+  <defs>
+    <path id="blade2" d="M{{opts.offset_x}},{{opts.offset_y}} h-{{opts.blade_w2}} a{{opts.blade_r}},{{opts.blade_r}} 0 0 1 -{{opts.blade_r}},-{{opts.blade_r}} v-{{opts.blade_l2}} h{{opts.blade_w2}} a{{opts.blade_r}},{{opts.blade_r}} 0 0 1 {{opts.blade_r}},{{opts.blade_r}} z" stroke="white"
+      stroke-width="{{opts.border_w}}" />
+
+    <mask id="blademask">
+      <use xlink:href="#blade2" transform="rotate(0)" fill="#fff" stroke="#fff"/>
+      <use xlink:href="#blade2" transform="rotate({{opts.rot}})" fill="#000" stroke="#fff"/>
+    </mask>
+
+    <g id="bladepartial">
+      <use xlink:href="#blade2" transform="rotate(0)" mask="url(#blademask)"/>
+      <use xlink:href="#blade2" transform="rotate({{opts.rot}})" mask="url(#blademask)" fill="none"/>
+    </g>
+
+    <g id="crosshairs">
+      <rect x="-200" y="-200" width="400" height="400" fill="#ddd" />
+      <line x1="-200" x2="200" y1="0" y2="0" stroke="#aaa" stroke-width="0.5" />
+      <line x1="0" x2="0" y1="-200" y2="200" stroke="#aaa" stroke-width="0.5" />
+    </g>
+  </defs>
+
+  {% if opts.sandbox %}
+  <g transform="translate(250,250)">
+    <use xlink:href="#crosshairs" />
+    <use xlink:href="#blade2"/>
+  </g>
+
+  <g transform="translate(750,250)">
+    <use xlink:href="#crosshairs" />
+    <use xlink:href="#blade2" fill="#000" transform="rotate(0)" />
+    <use xlink:href="#blade2" fill="#ccc" transform="rotate({{opts.rot}})" />
+  </g>
+
+  <g transform="translate(250, 750)">
+    <use xlink:href="#crosshairs" />
+    <use xlink:href="#bladepartial" fill="#f00" transform="rotate(  0)" />
+  </g>
+  {% endif %}
+
+  {% if opts.sandbox %}
+  <g transform="translate(750, 750)">
+      <use xlink:href="#crosshairs" />
+  {% else %}
+  <g transform="translate(500, 500) scale(2,2)">
+  {% endif %}
+    {% for i in range(opts.n_blades) -%}
+    <use xlink:href="#bladepartial" class="color{{i}}" transform="rotate({{i*opts.rot}})" />
+    {% endfor %}
+  </g>
+</svg>
