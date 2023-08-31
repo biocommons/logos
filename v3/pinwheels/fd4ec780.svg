@@ -1,6 +1,6 @@
 <svg width="1000" height="1000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <!--
-    {'blade_l': 150, 'blade_r': 25, 'blade_w': 75, 'border_w': 5.0, 'clockwise': True, 'colors': ['#a61c00', '#cc0000', '#e69138', '#f1c232', '#6aa84f', '#45818e', '#3c78d8', '#3d85c6', '#674ea7', '#a64d79'], 'flip': False, 'n_blades': 10, 'offset_x': 100, 'offset_y': 100, 'sandbox': False, 'blade_l2': 125, 'blade_w2': 50, 'rot': 36.0}
+    {'blade_l': 120, 'blade_r': 80, 'blade_w': 120, 'border_w': 4.4, 'clockwise': True, 'colors': ['#a61c00', '#cc0000', '#e69138', '#f1c232', '#6aa84f', '#45818e', '#3c78d8', '#3d85c6', '#674ea7', '#a64d79'], 'flip': False, 'n_blades': 10, 'offset_x': 85, 'offset_y': 5, 'sandbox': False, 'blade_l2': 40, 'blade_w2': 40, 'rot': 36.0}
   -->
   <style>
     .color0 {fill: #a61c00;}
@@ -15,8 +15,8 @@
     .color9 {fill: #a64d79;}
   </style> 
   <defs>
-    <path id="blade2" d="M100,100 h-50 a25,25 0 0 1 -25,-25 v-125 h50 a25,25 0 0 1 25,25 z" stroke="white"
-      stroke-width="5.0" />
+    <path id="blade2" d="M85,5 h-40 a80,80 0 0 1 -80,-80 v-40 h40 a80,80 0 0 1 80,80 z" stroke="white"
+      stroke-width="4.4" />
 
     <mask id="blademask">
       <use xlink:href="#blade2" transform="rotate(0)" fill="#fff" stroke="#fff"/>
