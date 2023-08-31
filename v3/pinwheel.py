@@ -8,6 +8,7 @@ template = env.get_template("pinwheel.svg.jinja2")
 
 
 def make_pinwheel(
+    blade: int = 1,
     blade_l: int = 140,
     blade_r: int = 40,
     blade_w: int = 90,
@@ -23,14 +24,16 @@ def make_pinwheel(
     blade_w2 = blade_w - blade_r
     blade_l2 = blade_l - blade_r
     rot = 360.0 / n_blades
-
+    if not clockwise:
+        rot = -rot
+        
     return template.render(
         opts=dict(
+            blade=blade,
             blade_l=blade_l,
             blade_r=blade_r,
             blade_w=blade_w,
             border_w=border_w,
-            clockwise=clockwise,
             colors=colors,
             flip=flip,
             n_blades=n_blades,

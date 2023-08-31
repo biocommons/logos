@@ -1,0 +1,56 @@
+<svg width="1000" height="1000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!--
+    {'blade': 2, 'blade_l': 105, 'blade_r': 85, 'blade_w': 85, 'border_w': 10.0, 'colors': ['#a61c00', '#cc0000', '#e69138', '#f1c232', '#6aa84f', '#45818e', '#3c78d8', '#3d85c6', '#674ea7', '#a64d79'], 'flip': False, 'n_blades': 10, 'offset_x': 15, 'offset_y': 100, 'sandbox': False, 'blade_l2': 20, 'blade_w2': 0, 'rot': 36.0}
+  -->
+  <style>
+    .color0 {fill: #a61c00;}
+    .color1 {fill: #cc0000;}
+    .color2 {fill: #e69138;}
+    .color3 {fill: #f1c232;}
+    .color4 {fill: #6aa84f;}
+    .color5 {fill: #45818e;}
+    .color6 {fill: #3c78d8;}
+    .color7 {fill: #3d85c6;}
+    .color8 {fill: #674ea7;}
+    .color9 {fill: #a64d79;}
+  </style> 
+  <defs>
+    
+    <path id="blade" d="M100,100 h-0 a85,85 0 0 1 -85,-85 v-20 h0 a85,85 0 0 1 85,85 z" stroke="white" stroke-width="10.0" />
+    
+
+    <mask id="blademask">
+      <use xlink:href="#blade" transform="rotate(0)" fill="#fff" stroke="#fff"/>
+      <use xlink:href="#blade" transform="rotate(36.0)" fill="#000" stroke="#fff"/>
+    </mask>
+
+    <g id="bladepartial">
+      <use xlink:href="#blade" transform="rotate(0)" mask="url(#blademask)"/>
+      <use xlink:href="#blade" transform="rotate(36.0)" mask="url(#blademask)" fill="none"/>
+    </g>
+
+    <g id="crosshairs">
+      <rect x="-200" y="-200" width="400" height="400" fill="#ddd" />
+      <line x1="-200" x2="200" y1="0" y2="0" stroke="#aaa" stroke-width="0.5" />
+      <line x1="0" x2="0" y1="-200" y2="200" stroke="#aaa" stroke-width="0.5" />
+    </g>
+  </defs>
+
+  
+
+  
+  <g transform="translate(500, 500) scale(2,2)">
+  
+    <use xlink:href="#bladepartial" class="color0" transform="rotate(0.0)" />
+    <use xlink:href="#bladepartial" class="color1" transform="rotate(36.0)" />
+    <use xlink:href="#bladepartial" class="color2" transform="rotate(72.0)" />
+    <use xlink:href="#bladepartial" class="color3" transform="rotate(108.0)" />
+    <use xlink:href="#bladepartial" class="color4" transform="rotate(144.0)" />
+    <use xlink:href="#bladepartial" class="color5" transform="rotate(180.0)" />
+    <use xlink:href="#bladepartial" class="color6" transform="rotate(216.0)" />
+    <use xlink:href="#bladepartial" class="color7" transform="rotate(252.0)" />
+    <use xlink:href="#bladepartial" class="color8" transform="rotate(288.0)" />
+    <use xlink:href="#bladepartial" class="color9" transform="rotate(324.0)" />
+    
+  </g>
+</svg>

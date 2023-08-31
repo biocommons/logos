@@ -15,17 +15,20 @@
     .color9 {fill: {{opts.colors[9]}};}
   </style> 
   <defs>
-    <path id="blade2" d="M{{opts.offset_x}},{{opts.offset_y}} h-{{opts.blade_w2}} a{{opts.blade_r}},{{opts.blade_r}} 0 0 1 -{{opts.blade_r}},-{{opts.blade_r}} v-{{opts.blade_l2}} h{{opts.blade_w2}} a{{opts.blade_r}},{{opts.blade_r}} 0 0 1 {{opts.blade_r}},{{opts.blade_r}} z" stroke="white"
-      stroke-width="{{opts.border_w}}" />
+    {% if opts.blade == 1 %}
+    <path id="blade" d="M{{opts.offset_x}},{{opts.offset_y}} v-{{opts.blade_l2}} a{{opts.blade_r}},{{opts.blade_r}} 0 0 1 {{opts.blade_r}},-{{opts.blade_r}}  h{{opts.blade_w2}}  v{{opts.blade_l2}} a{{opts.blade_r}},{{opts.blade_r}} 0 0 1 -{{opts.blade_r}},{{opts.blade_r}}  z" stroke="white" stroke-width="{{opts.border_w}}" />
+    {% else %}
+    <path id="blade" d="M{{opts.offset_x+opts.blade_w}},{{opts.offset_y}} h-{{opts.blade_w2}} a{{opts.blade_r}},{{opts.blade_r}} 0 0 1 -{{opts.blade_r}},-{{opts.blade_r}} v-{{opts.blade_l2}} h{{opts.blade_w2}} a{{opts.blade_r}},{{opts.blade_r}} 0 0 1 {{opts.blade_r}},{{opts.blade_r}} z" stroke="white" stroke-width="{{opts.border_w}}" />
+    {% endif %}
 
     <mask id="blademask">
-      <use xlink:href="#blade2" transform="rotate(0)" fill="#fff" stroke="#fff"/>
-      <use xlink:href="#blade2" transform="rotate({{opts.rot}})" fill="#000" stroke="#fff"/>
+      <use xlink:href="#blade" transform="rotate(0)" fill="#fff" stroke="#fff"/>
+      <use xlink:href="#blade" transform="rotate({{opts.rot}})" fill="#000" stroke="#fff"/>
     </mask>
 
     <g id="bladepartial">
-      <use xlink:href="#blade2" transform="rotate(0)" mask="url(#blademask)"/>
-      <use xlink:href="#blade2" transform="rotate({{opts.rot}})" mask="url(#blademask)" fill="none"/>
+      <use xlink:href="#blade" transform="rotate(0)" mask="url(#blademask)"/>
+      <use xlink:href="#blade" transform="rotate({{opts.rot}})" mask="url(#blademask)" fill="none"/>
     </g>
 
     <g id="crosshairs">
@@ -38,13 +41,13 @@
   {% if opts.sandbox %}
   <g transform="translate(250,250)">
     <use xlink:href="#crosshairs" />
-    <use xlink:href="#blade2"/>
+    <use xlink:href="#blade"/>
   </g>
 
   <g transform="translate(750,250)">
     <use xlink:href="#crosshairs" />
-    <use xlink:href="#blade2" fill="#000" transform="rotate(0)" />
-    <use xlink:href="#blade2" fill="#ccc" transform="rotate({{opts.rot}})" />
+    <use xlink:href="#blade" fill="#000" transform="rotate(0)" />
+    <use xlink:href="#blade" fill="#ccc" transform="rotate({{opts.rot}})" />
   </g>
 
   <g transform="translate(250, 750)">
